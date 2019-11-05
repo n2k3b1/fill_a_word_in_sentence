@@ -2,7 +2,7 @@
 import sys
 import random
 import io
-import string
+#import string
 
 # number of vocabulary want to fill in the sentence
 num_param = len(sys.argv)
@@ -50,5 +50,6 @@ while nvoc > 0:
 	nvoc = nvoc - 1
 
 print("")
-sentence = string.join(arr_sentences, ' ')
+s = ' '
+sentence = s.join(arr_sentences)
 print(sentence)
